@@ -1,6 +1,6 @@
 import streamlit as st
 from monitor import get_server_metrics
-
+#triggering refresh for pages folder
 st.set_page_config(page_title="Enterprise Control Center", page_icon="🌐", layout="wide")
 
 # Enhanced Modern UI CSS
