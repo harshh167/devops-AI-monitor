@@ -3,7 +3,7 @@ from monitor import get_server_metrics
 #triggering refresh for pages folder
 st.set_page_config(page_title="Enterprise Control Center", page_icon="🌐", layout="wide")
 
-# Enhanced Modern UI CSS
+
 st.markdown("""
     <style>
         .stMetric {background-color: #1e1e2e; padding: 20px; border-radius: 15px; border: 1px solid #31333f;}
@@ -35,3 +35,5 @@ s3.success("Data Sink: Connected")
 
 st.sidebar.title("🔐 Control Panel")
 st.sidebar.info(f"**Operator:** Harsh  \n**Session:** {metrics['ip']}")
+st.sidebar.page_link("app.py", label="Main Dashboard", icon="🌐")
+st.sidebar.page_link("pages/nlp_engine.py", label="AI NLP Engine", icon="🤖")
