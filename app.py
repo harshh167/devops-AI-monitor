@@ -36,3 +36,9 @@ s3.success("Data Sink: Connected")
 st.sidebar.title("🔐 Control Panel")
 st.sidebar.info(f"**Operator:** Harsh  \n**Session:** {metrics['ip']}")
 st.sidebar.page_link("app.py", label="Dashboard")
+
+st.sidebar.divider()
+
+st.sidebar.page_link("app.py", label="🌐 Dashboard")
+st.sidebar.page_link("pages/01_AI_Automation_Bot.py", label="🤖 AI Automation Bot")
+st.sidebar.page_link("pages/02_Cyber_Security_Audit.py", label="🛡️ Cyber Security Audit")
