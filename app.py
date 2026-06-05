@@ -35,8 +35,3 @@ s3.success("Data Sink: Connected")
 
 st.sidebar.title("🔐 Control Panel")
 st.sidebar.info(f"**Operator:** Harsh  \n**Session:** {metrics['ip']}")
-st.sidebar.page_link("app.py", label="Main Dashboard", icon="🌐")
-st.sidebar.page_link("pages/nlp_engine.py", label="AI NLP Engine", icon="🤖")
-st.sidebar.markdown("---")
-st.sidebar.page_link("app.py", label="Main Dashboard", icon="🌐")
-st.sidebar.page_link("pages/nlp_engine.py", label="AI NLP Engine", icon="🤖")
